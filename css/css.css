@@ -55,12 +55,27 @@ body{
     background-color: rgba(229, 84, 115, 0.05);
 }
 
+.insta-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 40px auto;
+}
+.insta-img{
+    display: flex;
+    justify-content: space-between;
 
+}
 
+.insta-img img{
+    width: 20%;
+    border-radius: 5px;
+}
 
 
 .subs-content{
-    background-image: url(/img/Rectangle-9.png);
+    background-image: url("../img/Rectangle-9.png");
     height: 450px;
     margin: 100px auto;
     border-radius: 10px;

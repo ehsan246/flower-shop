@@ -20,7 +20,6 @@
 .content-area{
     width: 80%;
     margin: 0 auto;
-    
 }
 
 .main-section, .featured-flowers, .hot-deals, .insta, .subscribe, .footer{
@@ -57,5 +56,27 @@
 footer{
     color: #eee;
     background-color: #111010;
-    height: 450px;
+    height: 250px;
+
+}
+.footer-content{
+    width: 40%;
+    text-align: center;
+    /* background-color: green; */
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.footer-content h1{
+    color: #E55473;
+    font-weight: bolder;
+}
+.footer-content span{
+    color: #eee;
+}
+.footer-content p{
+    color: #eee;
+}
+
+.footer-content .copy-right{
+    color: rgba(255, 255, 255, 0.4);
 }

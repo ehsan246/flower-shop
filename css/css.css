@@ -54,9 +54,10 @@ body{
 .featured-info{
     text-align: center;
     margin: 60px auto;
-
 }
-
+.featured-info p{
+    color: rgba(39, 39, 39, 0.6);
+}
 
 
 .featured-flowers > .content-area{

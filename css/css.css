@@ -6,6 +6,9 @@
 body{
     background-color: white;;
 }
+
+
+
 .btn{
     border: 0;
     border-radius: 5px;
@@ -48,10 +51,42 @@ body{
 
 
 
-
-.featured-flowers{
+.featured-info{
+    text-align: center;
+    margin: 60px auto;
 
 }
+
+
+
+.featured-flowers > .content-area{
+    margin: 30px auto;
+}
+
+.featured-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img-container{
+    width: 350px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-top-left-radius: 175px;
+    border-top-right-radius: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 0 5px;
+}
+.featured-img p{
+    margin: 10px auto;
+    text-decoration: underline;
+}
+
+
+
+
+
 .hot-deals{
     background-color: rgba(229, 84, 115, 0.05);
     height: 450px;
@@ -154,4 +189,12 @@ footer{
 
 .footer-content .copy-right{
     color: rgba(255, 255, 255, 0.4);
+}
+
+
+.red{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.green{
+    background-color: rgba(71, 125, 17, 0.15);
 }

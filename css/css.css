@@ -12,6 +12,7 @@ body{
     font-weight: bold;
     color: #eee;
     background-color: #E55473;
+    border: 2px solid #E55473;
     padding: 10px 20px;
 }
 .btn:hover{
@@ -53,7 +54,34 @@ body{
 }
 .hot-deals{
     background-color: rgba(229, 84, 115, 0.05);
+    height: 450px;
 }
+
+.hot-deals > .content-area{
+    display: flex;
+    flex-direction: row;
+}
+.deal-info{
+    width: 50%;
+    margin: auto 0;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.deal-info > *{
+    margin-top: 15px;
+}
+.hot-deals span{
+    color: #E55473;
+}
+
+.deal-image{
+    margin: 0 auto;
+}
+
+
+
+
 
 .insta-info{
     display: flex;
